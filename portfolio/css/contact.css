@@ -1,0 +1,69 @@
+h3 {
+    text-align: center;
+}
+
+/*お問い合わせ*/
+#contact {
+    margin: 80px auto 80px auto;
+}
+
+/*外枠*/
+#contact > form > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.contact-all {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*左列の見出し*/
+.contact-hedding {
+    width: 240px;
+    align-self: center;
+}
+
+/*見出しのラベル*/
+.contact-label {
+    font-weight: bold;
+}
+
+/*必須*/
+.contact-span {
+    color: #ce2222;
+    margin: 0 0 0 20px;
+    font-weight: bold;
+}
+
+/*テキストボックス*/
+.contact-textbox {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 3px;
+    border-bottom-color: pink;
+    border-bottom-style: solid;
+    width: 400px;
+    height: 56px;
+}
+
+/*お問い合わせ内容のテキストエリア*/
+.contact-textarea {
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-width: 2px;
+    border-color: pink;
+    border-style: solid;
+    width: 400px;
+    height: 200px;
+}
+
+#btn {
+    width: 50px;
+    margin-right: 100px;
+}
