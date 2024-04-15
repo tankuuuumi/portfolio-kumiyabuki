@@ -3,7 +3,7 @@ body {
   font-size: 15px;
   letter-spacing: .05em;
   color: #333;
-  background-color: #d8cb7a;
+  background-color: #CBE4E8;
 }
 
 a {
@@ -53,6 +53,7 @@ img {
   font-size: 34px;
   font-weight: bold;
   line-height: 1;
+  margin-top: 50px;
   margin-bottom: 40px;
   text-align: center;
   letter-spacing: .05em;
@@ -73,7 +74,7 @@ img {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #2a7236;
+  background-color: #fefefe;
   box-shadow: 0 5px 10px -6px rgba(73, 68, 68, 0.179);
 }
 
@@ -114,7 +115,7 @@ img {
   padding: 5px 0;
   transition: .3s;
   letter-spacing: .05em;
-  color: rgb(255, 255, 255)
+  color: rgb(0, 0, 0)
 }
 .gnav-item a:after {
   position: absolute;
@@ -150,7 +151,7 @@ img {
 }
 
 .mv-container img {
-  width: 1200px;
+  width: 1500px;
   height: auto;
 }
 
@@ -257,6 +258,15 @@ img {
 }
 
 /*--------------------------------
+shop
+---------------------------------*/
+
+.carousel {
+  width: 500px;
+  margin: auto;
+}
+
+/*--------------------------------
  Access
 ---------------------------------*/
 .access-list {
@@ -286,13 +296,13 @@ img {
 ---------------------------------*/
 .footer {
   padding: 30px;
-  background-color: #333;
+  background-color: #2d2d2d;
 }
 
 .copyright {
-  font-size: 10px;
-  text-align: center;
-  color: #797979;
+  font-size: 15px;
+  text-align: justify;
+  color: #c5c5c5;
 }
 
 /*--------------------------------
@@ -389,7 +399,7 @@ img {
   }
 
   .section {
-    padding: 60px 0;
+    padding: 0;
   }
 
   .container {
@@ -506,6 +516,9 @@ img {
   /* フッター */
   .footer {
     padding: 20px;
+  }
+  .copyright{
+    font-size: 10px;
   }
 
   /* 下層ページ */
