@@ -177,10 +177,8 @@ td {
   width: 350px;
 }
 
-.works-list {
+tr {
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: -40px;
 }
 
 .works-item {
@@ -476,18 +474,22 @@ td {
     font-size: 12px;
   }
 
+  .works-img {
+    width: 292px;
+    height: 217px;
+  }
+
   .works-info {
     margin-top: 3px;
   }
 
-  .works-list {
-    justify-content: space-between;
+  .works-item {
+    width: 100%;
+    margin-bottom: 35px;
   }
 
-  .works-item {
-    flex: 0 0 48%;
-    margin-right: 0;
-    margin-bottom: 30px;
+  tr {
+    flex-direction: column;
   }
 
   /* Skill */
