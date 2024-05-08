@@ -177,10 +177,6 @@ td {
   width: 350px;
 }
 
-tr {
-  display: flex;
-}
-
 .works-item {
   width: 31.74603%;
   margin-right: 1.58730%;
@@ -205,6 +201,18 @@ tr {
 .works-info {
   font-size: 10px;
   margin-top: 5px;
+}
+
+.works-list {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,auto);
+  gap: 10px;
+}
+
+.works-img {
+  width: 300px;
+  margin: 0 auto 0 auto;
 }
 
 /*--------------------------------
@@ -475,8 +483,7 @@ tr {
   }
 
   .works-img {
-    width: 292px;
-    height: 217px;
+    width: 250px;
   }
 
   .works-info {
@@ -488,8 +495,10 @@ tr {
     margin-bottom: 35px;
   }
 
-  tr {
+  .works-list {
+    display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   /* Skill */
