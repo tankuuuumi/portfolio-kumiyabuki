@@ -166,17 +166,6 @@ img {
 /*--------------------------------
  Works
 ---------------------------------*/
-table {
-  margin-left: auto;
-  margin-right: auto;
-  border-collapse: separate;
-  border-spacing: 100px 0px
-}
-
-td {
-  width: 350px;
-}
-
 .works-item {
   width: 31.74603%;
   margin-right: 1.58730%;
@@ -207,13 +196,35 @@ td {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(2,auto);
-  gap: 10px;
+  gap: 40px;
 }
 
 .works-img {
   width: 300px;
-  margin: 0 auto 0 auto;
 }
+
+/*============
+PC用のスタイル(768px以上適用)
+==============*/
+@media screen and (min-width: 768px) {
+
+.works-list > a:nth-child(odd) {
+  display: grid;
+  justify-content: flex-end;
+  text-align: center;
+}
+.works-list > a:nth-child(even) {
+  display: grid;
+  justify-content: flex-start;
+  text-align: center;
+}
+.works-item {
+  width: 100%;
+  margin-right: 1.58730%;
+  margin-bottom: 40px;
+  color: #333;
+}}
+
 
 /*--------------------------------
  Skill
@@ -407,9 +418,9 @@ td {
   }
 
   /* 見出し */
-  .title {
-    font-size: 26px;
-    margin-bottom: 20px;
+  .title-img {
+    width: 200px;
+    margin-bottom: -10px;
   }
 
   .lead {
@@ -480,10 +491,12 @@ td {
   /* Works */
   .works-name {
     font-size: 12px;
+    text-align: center;
   }
 
   .works-img {
-    width: 250px;
+    width: 200px;
+    margin: auto;
   }
 
   .works-info {
